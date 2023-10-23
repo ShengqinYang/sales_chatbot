@@ -17,13 +17,13 @@
 
 ### 如何使用
 
-- 1.克隆仓库 `git clone git@github.com:ShengqinYang/AINote.git`
+- 1.克隆仓库 `git@github.com:ShengqinYang/sales_chatbot.git`
 - 2.需要 Python 3.10 或更高版本。使用 `pip install -r requirements.txt` 安装依赖项。
-- 3.设置您的 OpenAI API 密钥($OPENAI_API_KEY)、SERPAPI_API_KEY。您可以将其添加到环境变量中。
+- 3.设置您的 OpenAI API 密钥($OPENAI_API_KEY)、SERPAPI_API_KEY。您可以将其添加到环境变量中。或者设置在config.ini中
 - 项目启动步骤：
 
 ```linux
-cd AINote/project/langchain_sales_chatbot
+cd sales_chatbot
 export OPENAI_API_KEY='openai apikey'
 export SERPAPI_API_KEY='serpapi_api_key'
 python sales_chatbot.py
