@@ -10,6 +10,8 @@ openai
 langchain
 gradio==3.44.4
 gradio_client==0.5.1
+gradio_client==0.5.1
 faiss-cpu
 tiktoken
 google-search-results
+pymilvus==2.3.0
